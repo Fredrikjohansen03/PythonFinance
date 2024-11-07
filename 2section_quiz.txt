@@ -1,0 +1,112 @@
+2.1 The following code example would print the data type of `x`, what data type would that be?
+x = 5
+print(type(x))
+Answer: `<class 'int'>`
+
+2.2 The following code example would print the data type of `x`, what data type would that be?
+x = 20.5
+print(type(x))
+Answer: `<class 'float'>`
+
+2.3 The following code example would print the data type of `x`, what data type would that be?
+x = True
+print(type(x))
+Answer: `<class 'bool'>`
+
+2.4 The following code example would print the data type of `x`, what data type would that be?
+x = ["apple", "banana", "cherry"]
+print(type(x))
+Answer: `<class 'list'>`
+
+2.5 The following code example would print the data type of `x`, what data type would that be?
+x = {"name": "John", "age": 36}
+print(type(x))
+Answer: `<class 'dict'>`
+
+2.6 The statement below would print a Boolean value, which one?
+print(5 > 3)
+Answer: `True`
+
+2.7 The statement below would print a Boolean value, which one?
+print(5 == 3)
+Answer: `False`
+
+2.8 The statement below would print a Boolean value, which one?
+print(bool("abc"))
+Answer: `True` (Non-empty strings are evaluated as `True` in Python.)
+
+2.9 The statement below would print a Boolean value, which one?
+print(bool(0))
+Answer: `False` (Zero is evaluated as `False` in Python.)
+
+2.10 What is printed by the following Python code?
+print(2 ** 3 ** 2 ** 1)
+Answer: `512`  
+Explanation: The expression is evaluated as \(2^{(3^{(2^1)})} = 2^{(3^2)} = 2^9 = 512\).
+
+2.11 What is printed by the following Python code?
+def func1(x):
+    print(2 * x)
+func1(5)
+func1(4)
+Answer: 
+10
+8
+
+2.12 What is printed by the following Python code?
+for x in [8, 3, 5]:
+    print(x + 2)
+Answer: 
+
+10
+7
+
+2.13 What is printed by the following Python code?
+m = 4
+for x in [8, 3, 5]:
+    m = m + x
+print(m)
+Answer: `20`  
+Explanation: `m` starts at 4. Each loop iteration adds `x` to `m`:
+- `m = 4 + 8 = 12`
+- `m = 12 + 3 = 15`
+- `m = 15 + 5 = 20`
+
+2.14 What is printed by the following Python code?
+def func1(x):
+    print(2 + x)
+print(func1(2) + func1(4))
+Answer: This code will raise an error because `func1` does not return any value (it only prints), so trying to add `func1(2)` and `func1(4)` is not valid. The correct answer is that this code will cause a **TypeError**.
+
+2.15 What is printed by the following Python code?
+print('2' + '3')
+
+Answer: `'23'`  
+Explanation: The `+` operator concatenates the two strings `'2'` and `'3'` to produce `'23'`.
+
+2.16 What is printed by the following Python code?
+for x in range(3):
+    print(x)
+
+Answer:
+0
+1
+2
+
+
+2.17 What is printed by the following Python code?
+def f1(x):
+    return x * x
+for y in [4, 2, 5]:
+    print(f1(y))
+
+Answer:
+16
+4
+25
+
+
+2.18 Describe the three types of errors that can occur in Python: Syntax error, Runtime error, and Semantics error.
+Syntax Error: This occurs when the code violates the grammatical rules of Python. It prevents the code from being parsed correctly, causing an immediate error. Examples include missing colons, incorrect indentation, or unmatched parentheses.
+Runtime Error: This type of error occurs during the execution of the code, after it has been successfully parsed. These errors are typically due to illegal operations, such as dividing by zero, accessing out-of-bounds list indices, or trying to use a variable that has not been defined.
+Semantic Error: These errors occur when the code executes without syntax or runtime errors but produces incorrect or unintended results. This usually happens due to a logical error in the code, such as using the wrong formula, wrong variable, or misunderstanding the intended operations.

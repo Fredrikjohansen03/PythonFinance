@@ -1,0 +1,47 @@
+1.1 What is a correct syntax to output "Hello World" in Python?  
+Answer: (d) `print("Hello world")`
+
+1.2 How do you create a variable with the numeric value 5?  
+**Answer:** (c) Both are correct
+
+1.3 How do you create a variable with the floating number 2.8?  
+Answer: (c) Both the other answers are correct
+
+1.4 What is the correct syntax to output the type of a variable or object in Python?  
+Answer: (d) `print(type(x))`
+
+1.5 In Python, 'Hello' is the same as "Hello"  
+Answer: (a) True
+
+1.6 Which of these collections defines a TUPLE?  
+Answer:(d) `("apple", "banana", "cherry")`
+
+1.7 Which of these collections defines a SET?  
+Answer:(a) `{"apple", "banana", "cherry"}`
+
+1.8 Which of these collections defines a DICTIONARY?  
+Answer: (c) `{"name": "apple", "color": "green"}`
+
+1.9 Which collection is ordered, changeable, and allows duplicate members?  
+Answer:(b) LIST
+
+1.10 Which collection does not allow duplicate members?  
+Answer: (b) SET
+
+1.11 Which statement is used to stop a loop?  
+Answer:(d) `break`
+
+1.12 Only one of the following statements is true when it comes to Copies in NumPy, which one?  
+Answer: (a) The copy should not be affected by the changes made to the original array
+
+1.13 In NumPy, what does the SHAPE of an array mean?  
+Answer: (a) The shape is the number of elements in each dimension
+
+1.14 What is a correct syntax to return the shape of an array?  
+Answer: (c) `arr.shape`
+
+1.15 What is a correct syntax to mathematically add the numbers of `arr1` to the numbers of `arr2`?  
+Answer: (a) `np.add(arr1, arr2)`
+
+1.16 What is a correct syntax to return the entire DataFrame?  
+Answer: (b) `df.to_string()`
